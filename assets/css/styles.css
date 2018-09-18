@@ -1,0 +1,49 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	background-color: grey;		
+}
+
+
+img{
+	height: 200px;
+	width: 200px;
+	display: block;
+	margin: 200px auto 50px;
+	border-color: 1px solid white;
+	border-radius: 50%;
+
+}
+.container h1,h3{
+	text-align: center;
+	color: white;	
+	font-style: tahoma;
+}
+.navs{
+		list-style: none;
+		margin-top:30px;
+
+}
+li{
+	display: inline;
+	margin: 100px 30px;
+
+}
+footer{	
+	color: white;
+	margin-top: 200px;
+	text-align: center;
+}
+ul li a{
+	color:white;
+}
+p{
+	text-align: center;
+	color: orange;
+	line-height: 100%;
+}
