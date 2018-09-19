@@ -3,27 +3,33 @@
 	padding: 0;
 	box-sizing: border-box;
 }
- .navmenu{
- 	overflow: hidden;
+body{
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 800px;
+	background-attachment: fixed;
+}
+ /*.navbar{
+ 	overflow: auto;
   	background-color: #333;
     position: fixed;
-    bottom: 10px;
+    top: 10px;
     width: 100%;
-    float:right;    
+    float:right; 
+
  }
- .navmenu a{
+ .navbar a{
  	float: left;
   	display: block;
   	color: grey;
   	text-align: center;
-  	padding: 14px 16px;
+  	padding: 5px 10px;
   	text-decoration: none;
   	font-size: 17px;
-  	margin: 0 5px 0;
-  	border: 2px solid white;
-  	border-radius: 10%;
+  	margin: 0 5px 0;  	
  }
- .navmenu a:hover {
+ .navbar a:hover {
   	background: skyblue;
   	color: white;  	
 }
@@ -47,3 +53,10 @@
 	color: skyblue;
 
 }
+footer{
+	
+	text-align: center;
+	color: white;
+	margin-bottom: 100px;
+	
+}*/
