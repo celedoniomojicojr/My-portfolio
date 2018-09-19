@@ -120,3 +120,47 @@ body{
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
 }
+
+.social > ol{
+  display: flex;
+  position: fixed;
+  left: 36.90%;
+  top:95%;
+  transform: translate(0,-75%);
+}
+.social > ol > li {
+list-style: none;
+}
+.social > ol > li > a{
+  width: 50px;
+  height: 50px;
+  background:white;
+  line-height: 50px;
+  font-size: 35px;
+  margin: 0 10px;
+  display: block;
+  border-radius: 50%;
+  text-align: center; 
+  overflow: hidden;
+  border:3px solid white;
+
+}
+/*.social > ol > li > a > .fa{
+  position: relative;
+  color: red;
+  transition: .5s;
+}
+.social > ol > li > a:hover .fa{
+  transform: rotateY(360deg);
+}
+.social > ol > li > a:before{
+  content:"";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background:grey;
+}
+
+*/
