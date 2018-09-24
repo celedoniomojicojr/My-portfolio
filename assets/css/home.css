@@ -5,14 +5,136 @@
 }
 .parallax{
   background-image: url("../img/background.jpg");
-  height: 400px;     
+  height: 100vh;
+  width: 100%;    
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position:relative;
+ 
+}
+.col-lg-12{
+  background-color: grey;
+  height: auto;
+  width: 100%;
+  top:40vh;
+  opacity: .5;
+  color: white;
+}
+.me{
+  padding-top:30vh ;
+ }
+ .container-fluid{
+  background-image: url("../img/me1.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position:relative;
+  width: 100%;
+  height: 100vh;
 
 }
+.me h1,h3{  
+  color: white;
+}
+.me h1 a{
+  text-decoration: none;
+  color: white;
+}
 .container-fluid img{
+  height: 200px;
+  width: 200px;
+  border:2px solid black;
+  border-radius: 50%;
+ }
+ #about{
+  background-image: url("../img/about.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+ }
+ #about p{
+  color: white;
+ }
+ #contact{
+  background-color: grey;
+ /* background-image: url("../img/contact.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;*/
+ }
+ .fa{
+  font-size: 20px;
+ }
+ .fa-facebook-square{
+  color:#3B5998;
+ }
+ .fa-linkedin-square{
+  color: skyblue;
+ }
+ .fa-google-plus-square{
+  color:#CC3333;
+ }
+ .col{  
+  background-color: grey;
+  
+ }
+ .col li{
+  list-style: none;  
+ }
+ .col li a{
+  text-decoration: none;
+  color:white;
+ }
+
+
+/* Portrait and Landscape /iphones*/
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+.col-lg-12{
+  top:10vh;  
+}
+.col-lg-12 h1{
+  font-size: 25px;
+}
+
+ .parallax{
+  height: 30vh;
+  }
+.me{
+  padding-top:5vh ;
+ }
+ .container-fluid{
+  height: 60vh;
+ }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+.col-lg-12{
+  top:20vh;
+}
+ .parallax{
+  height: 40vh;
+  }
+  .me{
+  padding-top:10vh ;
+ }
+ .container-fluid{
+  height: 50vh;
+ }
+}
+
+
+
+
+/*.container-fluid img{
   height: 200px;
   width: 200px;
   margin:50px;
@@ -22,6 +144,7 @@
 .container-fluid{
   padding: 0 0;
   width: 100%;
+  height: 100vh;
 }
 .maincontent{
   top:200px;
@@ -50,7 +173,7 @@
   background-size: cover; 
   margin:0 0;
   background-attachment: fixed;
-  height: 90vh;
+  height: 150vh;
   padding: auto; 
 }
 
@@ -71,3 +194,4 @@
       top: 0;
     }
 }
+*/
