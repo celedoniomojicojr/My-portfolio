@@ -102,7 +102,7 @@
 
 
 
-/* Portrait and Landscape /iphones*/
+
 @media only screen 
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
@@ -158,7 +158,7 @@
   height: 40vh;
   }
   .me{
-  padding-top:10vh ;
+  padding-top:2vh ;
  }
  .container-fluid{
   height: 75vh;
