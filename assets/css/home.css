@@ -46,10 +46,9 @@
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+  background-size: cover; 
   padding: 20px 30px;
-  height: 70vh;
+ 
   padding: 70px 30px;
 
 }
@@ -61,6 +60,12 @@
 .col-sm-12 img{
   height: 200px;
   width: 200px;
+}
+#me{
+  height: 70vh;
+}
+#contact{
+  height: 50vh;
 }
 }
 
