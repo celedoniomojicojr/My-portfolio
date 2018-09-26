@@ -10,13 +10,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 110vh;
+  height: 50vh;
   padding: 20px 30px;
 
 }
 
 #me img{
   border-radius: 50%; 
+}
+.col-sm-12 img{
+  height: 300px;
+  width: 300px;
 }
 #about{
   background-image: url("../img/about.jpeg");
@@ -37,7 +41,7 @@
   background-size: cover;
   height: 100vh;
   padding: 20px 30px;
-  height: 80vh;
+  height: 50vh;
   padding: 40px 30px;
 
 }
